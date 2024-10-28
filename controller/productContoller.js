@@ -39,6 +39,8 @@ const productItem = (req,res) => {
 }
 const productList = (req,res) => {
     console.log("productList");
+
+    res.render('productList')
     
 }
 module.exports = {categoryList,myProduct,productForm,productItem,productList,postProductForm}
